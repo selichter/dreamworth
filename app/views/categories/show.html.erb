@@ -1,0 +1,10 @@
+<h1>categories#show</h1>
+
+ 
+  <h2><%= @category.category  %></h2>
+  <h4><%= link_to 'Edit', edit_category_path(@category) %> |
+		  <%= link_to 'Delete', category_path(@category), method: :delete, data: { confirm: 'Are you sure?' } %> 
+		  | <%= link_to 'Back', categories_path %>
+	</h4>
+
+

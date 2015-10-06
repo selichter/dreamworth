@@ -1,0 +1,131 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+
+
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,600);
+
+/******** Variables ********/
+/* color */
+$red: #BA1F2E;
+$darkgrey: #6D6E70;
+$lightergrey: #C3BBBD;
+$black: #000;
+$white: #fff;
+
+
+/* font */
+$mainfontstack: 'Raleway', sans-serif;
+
+/* CSS */
+#nav {
+	background-color: $white;
+  color: $darkgrey;
+
+}
+ 
+
+/* typography */
+
+ul {
+    list-style-type: none;
+}
+
+* {
+  font-family: $mainfontstack;
+}
+
+ /* from old About page */
+
+
+  .footcenter{
+    width:960px;
+    margin:60px auto;
+  }
+
+  .footcenter h2{
+    font-size:30px;
+    font-weight:bold;
+  }
+
+  .main-nav-wrap{
+    top:0px;
+    left:0px;
+  }
+
+  .features hr{
+   opacity:0.5;
+  }
+  
+  .features ul li{
+  list-style-type:disc;
+  }
+  .header{
+   
+  }
+
+#space{
+  height: 1000px;
+}
+
+.header-logo {
+  height: 50px;
+  padding: 0px;
+}
+
+.present {
+  text-align: center;
+}
+
+.about {
+  background-color: $darkgrey;
+}
+
+.home-about {
+  background-color: $black;
+  color: $white;
+  margin-bottom: 20px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+#myCarousel {
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn {
+  background-color: $red;
+  border: none;
+}
+
+.btn-primary {
+  background-color: $red;
+  border: none;
+}
+
+.dropdown {
+  color: $darkgrey;
+}
+
+.thumbnail {
+  color: $darkgrey;
+}
+
+.copyright {
+  color: $white;}
+
